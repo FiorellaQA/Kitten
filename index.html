@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<!--Indica que puede ocupar el amplio natural del dispositivo, manteniendo el mismo zoom tanto en portrait como en landscape-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="main.css">
+		<title>Kitten | Media</title>
+	</head>
+	<body>
+		<picture class="fondo">
+			<source media="(min-width: 650px)" srcset="assets/img/landscape.jpg">
+			<source media="(min-width: 465px)" srcset="assets/img/dawn.jpg"> 
+			<img src="assets/img/maxresdefault.jpg" alt="fondo">
+		</picture>
+		<picture class="cat">
+			<source media="(min-width: 650px)" srcset="assets/img/kitten-medium.png">
+			<source media="(min-width: 465px)" srcset="assets/img/kitten-large.png"> 
+			<img src="assets/img/kitten-small.png" alt="cat sleep">
+		</picture>
+	</body>
+</html>
