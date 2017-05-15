@@ -4,17 +4,22 @@ body{
 	margin:0;
 	padding: 0;
 }
+::-webkit-scrollbar { 
+    display: none; 
+}
 picture.fondo img{
 	width: 100%;
+	height: 642px;
+}
+picture.cat{
+	position: relative;
+    display: inline-block;
+    width: 500px;
 }
 picture.cat img{
+    position: absolute;
 	width: 100%;
-
+ 	bottom: 12px;
 }
-/*img{
-	display: block;
-	margin:0 auto;
-	
-}*/
 
 
